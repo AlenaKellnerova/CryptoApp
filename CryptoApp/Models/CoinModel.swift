@@ -70,7 +70,7 @@ struct CoinModel: Identifiable, Codable {
     let lastUpdated: String?
     let sparklineIn7D: SparklineIn7D?
     let priceChangePercentage24HInCurrency: Double?
-    // Custom
+  
     let currentHoldings: Double? // How many coins the current user is holding
     
     enum CodingKeys: String, CodingKey {
