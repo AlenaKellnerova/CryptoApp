@@ -29,10 +29,8 @@ struct CoinRowView: View {
     }
 }
 
-struct CoinRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        CoinRowView(coin: dev.coin, showHoldingsColumn: true)
-    }
+#Preview {
+    CoinRowView(coin: DeveloperPreview.instance.coin, showHoldingsColumn: true)
 }
 
 extension CoinRowView {
